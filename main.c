@@ -10,7 +10,6 @@ int main()
 
     print_list(root); //File names list printing
     hash_control(root); //Hashing
-
     compare(root); //Compare Hashes
     deleteAll(&root); //Free all
 
