@@ -1,4 +1,4 @@
-# Searching_Duplicate_Files_With_SHA-256
+# Searching Duplicate Files With SHA-256
 
 This project steps:
 1) Enter your directory
@@ -17,5 +17,6 @@ This program uses SHA-256 PROTOCOL (SHA: Secure Hash Algorithm)
 6) Last step is calculates how much matches
 7) END PROGRAM
 -----------------------------------------------------
+## Output of program is below as you see
 
 ![ Alt text](screen_gif.gif)  [](screen_gif.gif)
