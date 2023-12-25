@@ -1,15 +1,13 @@
 # Searching_Duplicate_Files_With_SHA-256
 
-# (1st Year My Last Project)
-
 This project steps:
-First Step ==> Enter your directory
-Second Step ==> Control the last line for how much match
+1) Enter your directory
+2) Control the last line for how much match
 
-This program protocol is SHA-256 Hashing protocol.
+This program uses SHA-256 PROTOCOL (SHA: Secure Hash Algorithm)
 
 # PROGRAM PROCEDURE
--------------
+-----------------------------------------------------
 0) START PROGRAM
 1) Searhing files about your entry directory
 2) Adds names to linked list
@@ -18,5 +16,6 @@ This program protocol is SHA-256 Hashing protocol.
 5) These nodes hashes compares
 6) Last step is calculates how much matches
 7) END PROGRAM
+-----------------------------------------------------
 
 ![ Alt text](screen_gif.gif)  [](screen_gif.gif)
