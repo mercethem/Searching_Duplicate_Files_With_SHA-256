@@ -3,7 +3,7 @@
 #include <dirent.h>
 
 
-void print_list(Node* root)
+void print_name_list(const Node* root)
 {
     printf("\nFiles Inside Your Directory :\n\n");
     while (root) {
@@ -59,7 +59,7 @@ Node* insert_contiguous(Node* root, char sval[])
 }
 
 
-void compare(Node* root){
+void compare(const Node* root){
     int count = 0;
     while(root ->next != NULL && !strcmp(root->hash, root->next->hash)){
         count++;
@@ -96,7 +96,7 @@ Node* control_files(Node* root) {
 }
 
 
-void hash_control(Node* root)
+void hashing(Node* root)
 {
     SHA256_CTX ctx;
     BYTE buffer[SHA256_BLOCK_SIZE];

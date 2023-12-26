@@ -20,10 +20,10 @@ typedef struct Node Node;
 Node* insert_contiguous(Node* root, char sval[]);
 Node* control_files(Node* root);
 
-void print_list(Node* root);
-void compare(Node* root);
+void print_name_list(const Node* root);
+void compare(const Node* root);
 void deleteAll(Node** root);
-void hash_control(Node* root);
+void hashing(Node* root);
 
 
 
